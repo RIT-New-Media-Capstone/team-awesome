@@ -10,6 +10,7 @@ canvas{
 .art{
     width: 500px;
     height: 50px;
+    background-color: #fff;
     border: 3px solid #32a1ce;
     display: flex;
     flex-direction: row;
@@ -24,6 +25,7 @@ canvas{
     width: 500px;
     /* height: 125px; */
     height: auto;
+    background-color: #fff;
     border: 3px solid #32a1ce;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -41,8 +43,9 @@ canvas{
     border-radius: 50%;
     border: 2px solid #150135;
     margin: 4px;
+    cursor: pointer;
   }
 
 .icon{
-
+    cursor: pointer;
 }

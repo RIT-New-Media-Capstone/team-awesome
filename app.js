@@ -75,5 +75,3 @@ data.forEach((item) => {
 }
 
 main();
-
-export {renderDrawing};

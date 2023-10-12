@@ -68,4 +68,12 @@ const drawCanvas = (mx, my, currentColor, currentShape, brushSize) => {
     }
 }
 
+function renderDrawing(data) {
+data.forEach((item) => {
+    drawCanvas(item.pos[0], item.pos[1], item.currentColor, item.currentShape, item.brushSize);
+});
+}
+
 main();
+
+export {renderDrawing};
